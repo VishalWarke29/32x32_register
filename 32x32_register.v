@@ -1,6 +1,6 @@
 module regbank_v4 (rdData1, rdData2, wrData, sr1, sr2, wr, clk, rst, dr);
     input clk, wr, rst;
-    input [4:0] sr1, sr2, wr;
+    input [4:0] sr1, sr2, dr;
     input [31:0] wrData;
     output [31:0] rdData1, rdData2;
     integer k;
